@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garden Defence</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Garden Defence</h1>
+        <div class="game-ui">
+            <div class="sun-counter">
+                <div class="sun-icon">☀️</div>
+                <span id="sunCount">50</span>
+            </div>
+            <div class="seed-packets" id="seedPackets">
+                <!-- Seed packets will be added here -->
+            </div>
+        </div>
+        <div style="position: relative;">
+            <canvas id="gameCanvas"></canvas>
+            <div id="gameOverScreen" class="game-over-screen" style="display: none;">
+                <button id="tryAgainButton" class="try-again-button">Try Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
+
