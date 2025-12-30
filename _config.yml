@@ -1,3 +1,4 @@
-theme: jekyll-theme-minimal
+layout: page
 title: Garden Defence
 description: A simple game of plants vs zombies
+permalink: /index.html
